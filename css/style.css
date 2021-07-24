@@ -5,10 +5,12 @@
 }
 
 body{
-    background: linear-gradient( hsl(217, 28%, 15%) 40%, hsl(218, 28%, 13%) 60%);
- 
+    background: url(/images/bg-curvy-desktop.svg),linear-gradient( hsl(218, 28%, 15%) 62%, hsl(218, 28%, 13%) 38%);
+    background-position: center;
+    height: 1800px;
+    background-repeat: no-repeat;
     color: hsl(0, 0%, 100%);
-   font-size: 14px;
+    font-size: 14px;
     font-family: 'Open Sans';
 }
 
@@ -26,6 +28,8 @@ nav{
     margin-top:9px;
     font-family: 'Raleway';
 }
+
+
 
 .item{
     padding:20px;
@@ -83,7 +87,97 @@ nav{
 .img-item{
     height:50px;
 }
+
+.container-stay-productive{
+    background-color:  hsl(218, 28%, 13%); 
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+}
+
+
+.main{
+    padding:20px;
+}
+
+.main img{
+    height:400px;
+}
+
+.sidebar{
+ padding:20px;
+font-size: 14px;
+
+}
+
+.sidebar a{
+    color:hsl(198, 60%, 50%);
+    text-decoration: underline;
+}
+
+.sidebar h2{
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.sidebar p{
+    padding-bottom:20px;
+}
+
+.testimonials{
+    background-color:  hsl(218, 28%, 13%); 
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px;
+    grid-column-gap: 110px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.testimonials-item{
+    background-color:hsl(219, 30%, 18%) ;
+    padding:20px;
+}
+
+.container-email{
+    position: relative;
+    background-color:  hsl(218, 28%, 13%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.email{    
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    background-color: hsl(217, 28%, 15%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 17px;
+    top: 100px;
+}
+
+.email input{
+    border-radius:10px;
+}
+
 footer{
     background-color: hsl(216, 53%, 9%);
-    height:300px;
+    
+}
+
+.footer-container{
+    padding-top:100px;
+    display: grid;
+    grid-template-columns: 350px 200px 200px 200px 2000px;
+    grid-template-rows: 150px;
+}
+
+.item1{
+    display:flex;
+    flex-direction: column;
 }
