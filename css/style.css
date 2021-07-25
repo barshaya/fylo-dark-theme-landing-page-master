@@ -174,13 +174,20 @@ font-size: 14px;
     line-height: 40px;
 }
 
-.email input{
-    border-radius:10px;
+.text-email{
+    border-radius:15px;
+    height:40px;
+    width:400px;
 }
 
 .email-button{
-    background-color: hsl(176, 68%, 64%);
-    border-color: hsl(176, 68%, 64%)
+    background-color: hsl(198, 60%, 50%);
+    border-style:none;
+    color:white;
+    height:40px;
+    width:150px;
+    border-radius:15px;
+
 }
 
 footer{
