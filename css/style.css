@@ -165,13 +165,13 @@ font-size: 14px;
 
 .email{    
     position: absolute;
-    width: 700px;
-    height: 150px;
+    width: 800px;
+    height: 200px;
     background-color: hsl(217, 28%, 15%);
     padding: 20px;
-    text-align: center;
     border-radius: 17px;
     top: 100px;
+    line-height: 40px;
 }
 
 .email input{
@@ -192,7 +192,7 @@ footer{
     position:relative;
     padding-top:100px;
     display: grid;
-    grid-template-columns: 350px 200px 200px 200px 2000px;
+    grid-template-columns:400px 200px 200px 200px 2000px;
     grid-template-rows: 200px;
     text-align: left;
     line-height: 30px;
@@ -202,7 +202,8 @@ footer{
 .img-flyo-footer{
     position:absolute;
     bottom:200px;
-    left:35px;
+    left:80px;
+    height:30px;
 }
 
 .item1{
@@ -215,7 +216,7 @@ footer{
 .item0{
    position:relative;
    padding:20px;
-   margin-left:40px;
+   margin-left:80px;
 }
 
 .img-location{
